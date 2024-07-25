@@ -156,7 +156,7 @@ function App() {
         setIsVisible(false);
         setSearchNoFind(true);
       } else {
-        setSearchNoFind(true);
+        setSearchNoFind(false);
       }
 
       if (response.data.hits.length < 12) {
